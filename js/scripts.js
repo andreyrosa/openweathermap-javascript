@@ -1,6 +1,4 @@
-
 // Variáveis e seleção de elementos
-
 
 const apiKey = "your token from https://openweathermap.org/api";
 const apiCountryURL = "https://countryflagsapi.com/png/";
@@ -20,10 +18,6 @@ const weatherContainer = document.querySelector("#weather-data")
 
 // Funções
 const getWeatherData = async (city) => { /* ACESSA OS DADOS DA API */
-// Vai ser uma função Assíncrona porque é uma API e ela pode demorar
-// um tempo para responder, então tem que fazer a espera desses dados.
-
-
 	const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`
 
 	const res = await fetch(apiWeatherURL);
@@ -49,8 +43,9 @@ const showWeatherData = async (city) => { /* EXIBE OS DADOS DA API */
 
 	weatherContainer.classList.remove("hide")
 };
-// Eventos
 
+
+// Eventos
 searchBtn.addEventListener("click", (e) => {
 	e.preventDefault()
 
