@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* Geral */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.hide {
+	display: none;
+}
+
+.container { /*Todo o container que está no centro*/
+	background-color: #5c54ed;
+	box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+	padding: 2rem;
+	color: #fdfdfd;
+	opacity: .9;
+	border-radius: 1rem;
+}
+
+/* Form */
+.form h3 { /*Confira o clima de uma cidade*/
+	margin-bottom: 1rem;
+}
+
+.form-input-container { /*o input e a lupa*/
+	display: flex;
+}
+
+.form input { /*input //*/
+	padding: .8rem;
+	border: none;
+	flex: 1; /*Aqui quer dizer que ele vai ocupar a maior área possível.*/
+	border-radius: 4px;
+}
+
+.form button { /*Estilização do botão (lupa) */
+	padding: .8rem;
+	min-width: 50px;
+	margin-left: 8px;
+	background-color: #8dd0f5;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* Clima */
+
+#weather-data { /*Todo bloco do clima*/
+	border-top: 1px solid #fff;
+	margin-top: 1.5rem;
+	padding-top: 1.5rem;
+	text-align: center;
+}
+
+#weather-data h2 { /*Nome do lugar incluindo a bandeira*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: .6rem;
+}
+
+#weather-data h2 i { /*ícone de localização*/
+	font-size: 1rem;
+}
+
+#weather-data span { /*Nome do país, número dos graus, umidade e km/h*/
+	margin: 0.6rem;
+}
+
+#country { /*Bandeira do país*/
+	width: 25px;
+}
+
+#description-container { /*Campo do nublado/chuva/sol*/
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	margin: .6rem 0;
+}
+
+#description { /* Descrição do tempo | ex: Céu Limpo */
+	font-weight: bold;
+	text-transform: capitalize; /*Faz com que a primeira letra fique maiúscula*/
+}
+
+#details-container { /*Umidade / Km/h*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#details-container #humidity { /*Umidade / Border que divide do KM/H*/
+	border-right: 1px solid #fff;
+	margin: .6rem;
+	padding: .6rem;
+}
