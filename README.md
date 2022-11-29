@@ -1,4 +1,4 @@
-# previs-o-do-tempo-API
+# previsão-do-tempo-API
 Projeto em que utilizo a API do OpenWeatherMap e as condições climáticas para o display
 
 
