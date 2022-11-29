@@ -1,8 +1,8 @@
-// https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=c8849d1b0cdf72873dd9f8a2b465614e
+
 // Variáveis e seleção de elementos
 
 
-const apiKey = "c8849d1b0cdf72873dd9f8a2b465614e";
+const apiKey = "your token from https://openweathermap.org/api";
 const apiCountryURL = "https://countryflagsapi.com/png/";
 
 const cityInput = document.querySelector("#city-input");
