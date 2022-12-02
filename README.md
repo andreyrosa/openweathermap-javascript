@@ -2,4 +2,4 @@
 Projeto em que utilizo a API do OpenWeatherMap e as condições climáticas para o display
 
 
-![image](https://user-images.githubusercontent.com/94721925/204514768-fe3b1e40-6d35-4a48-852f-cfba7212bc23.png)
+![image](https://user-images.githubusercontent.com/94721925/205279669-2aacc4c2-a745-4549-8b70-1ae0de2dcb31.png)
